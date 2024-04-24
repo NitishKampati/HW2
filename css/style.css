@@ -1,0 +1,86 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  max-width: 80ch;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex; /* Added */
+  flex-direction: column; /* Added */
+  justify-content: center; /* Added */
+  align-items: center; /* Added */
+  min-height: 100vh; /* Added */
+}
+
+/* Header styles */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  max-width: 80ch; /* Added */
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  max-width: 80ch; /* Added */
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  max-width: 80ch; /* Added */
+}
+
+/* Navigation styles */
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+  max-width: 80ch; /* Added */
+}
+
+li {
+  margin-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+a:hover {
+  color: #666;
+}
+
+/* Footer styles */
+footer {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+  color: #666;
+  max-width: 80ch; /* Added */
+}
+
+/* Specific page styles */
+body[bgcolor="Olive"] {
+  background-color: Olive;
+  color: #fff;
+}
+
+body[bgcolor="orange"] {
+  background-color: orange;
+  color: #333;
+}
+
+body[bgcolor="Sky Blue"] {
+  background-color: SkyBlue;
+  color: #333;
+}
